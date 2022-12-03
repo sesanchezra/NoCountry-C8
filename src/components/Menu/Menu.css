@@ -1,0 +1,39 @@
+.Menu-false{
+    height: 0;
+    visibility: hidden;
+
+}
+
+.Menu-true{
+    visibility: visible;
+    height: 94vh;
+    z-index: 12;
+    background-color: #F4F8EC;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Menu-false ,.Menu-true{
+    width: 100%;
+    position: absolute;
+    transition: height 0.5s ease-in;
+}
+
+.Menu__section{
+    width: 90%;
+    min-height: 56px;
+    /* border:1px solid blue; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(196, 196, 208,0.6);
+}
+
+.Menu__section button{
+    background-color: transparent;
+    border:none;
+    min-height: 56px;
+}

@@ -1,0 +1,52 @@
+.RecommendationCard{
+    width: 170px;
+    height: 110px;
+    /* border: 1px solid grey; */
+    border-radius: 14px;
+    position: relative;
+    margin-right: 10px;
+    background-color: #f3f3f3;
+}
+
+.RecommendationCard__img{
+    width: 170px;
+    height: 110px;
+    content: '';
+    position: relative;
+}
+
+.RecommendationCard__img > img{
+    width: 80%;
+    object-fit: contain;
+}
+
+.Aceites.y.Vinagres{
+    position: absolute;
+    right: 0;
+}
+
+.Aderezos{
+    position: absolute;
+    right: -10%;
+    top: 10%;
+}
+
+.Dulces.y.Mantequillas{
+    position: absolute;
+    left: 0;
+    top: 18%;
+    border-bottom-left-radius: 14px;
+    
+}
+
+.Arroz.y.legumbres{
+    position: absolute;
+right: -7%;
+top: -20%;
+}
+
+.Conservas{
+    position: absolute;
+    bottom: -1%;
+    left: -2%;
+}
